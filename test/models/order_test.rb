@@ -22,4 +22,5 @@ class OrderTest < ActiveSupport::TestCase
     @order.customer_name = 'Yunus  '
     assert_not @order.save
   end
+  
 end
